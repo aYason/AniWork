@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AniWork.iml" filepath="$PROJECT_DIR$/AniWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aniwork-app/aniwork-app.iml" filepath="$PROJECT_DIR$/aniwork-app/aniwork-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aniwork-core/aniwork-core.iml" filepath="$PROJECT_DIR$/aniwork-core/aniwork-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aniwork-ec/aniwork-ec.iml" filepath="$PROJECT_DIR$/aniwork-ec/aniwork-ec.iml" />
+    </modules>
+  </component>
+</project>

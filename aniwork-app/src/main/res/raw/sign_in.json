@@ -1,0 +1,13 @@
+{
+  "state": 1,
+  "stateInfo": "用户登录成功",
+  "data": {
+    "userId": 12,
+    "userName": "ABC",
+    "email": "123456@qq.com",
+    "password": "",
+    "phone": "15626198155",
+    "mark": 0,
+    "set-cookie": "NID=125=oJk2IY-vTVPWxbMCn2Dp1tN_tz5rM8SZIeiJuD052G2IAVp7yEioEGMhvzsx5-ufao0VaO8YXGQiYXJJqLjQCe-tZOK0FOfMS6ECjaaJaSmMy4R1EKxLrN74fPUMC9zaypEKKU1i2uuETU37qj4U5evl9bMX4IpkKAl-Lg-LmoiV4j08wipn-DrnRu-mKbyChNypyHjiB_1sD6L6pB6A7CEPR3tpNLC5AvKDGIMhmgxung; expires=Wed, 05-Sep-2018 12:49:41 GMT; path=/; domain=.google.com; HttpOnly"
+  }
+}

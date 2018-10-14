@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="42dp"
+  android:background="#272727"
+  android:clickable="true"
+  android:orientation="vertical">
+
+  <TextView
+    style="@style/AniWork.Theme.SignTextView"
+    android:layout_marginTop="24dp"
+    android:text="帐号注册" />
+
+
+  <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/name"
+      style="@style/AniWork.Theme.SignEditText"
+      android:layout_marginTop="16dp"
+      android:hint="姓名"
+      android:inputType="text" />
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/account"
+      style="@style/AniWork.Theme.SignEditText"
+      android:hint="邮箱"
+      android:inputType="textEmailAddress" />
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/phone"
+      style="@style/AniWork.Theme.SignEditText"
+      android:hint="手机号码"
+      android:inputType="phone" />
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/password"
+      style="@style/AniWork.Theme.SignEditText"
+      android:hint="密码"
+      android:inputType="textPassword" />
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputEditText
+      android:id="@+id/password2"
+      style="@style/AniWork.Theme.SignEditText"
+      android:hint="确认密码"
+      android:inputType="textPassword" />
+  </android.support.design.widget.TextInputLayout>
+
+  <android.support.v7.widget.AppCompatButton
+    android:id="@+id/sign_up"
+    style="@style/AniWork.Theme.SignButton"
+    android:layout_marginTop="36dp"
+    android:background="@drawable/bg_btn_gray"
+    android:text="注册" />
+
+  <android.support.v7.widget.AppCompatImageView
+    android:id="@+id/cancel"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="16dp"
+    android:layout_gravity="center_horizontal"
+    android:src="@mipmap/ic_cancel" />
+
+</android.support.v7.widget.LinearLayoutCompat>
